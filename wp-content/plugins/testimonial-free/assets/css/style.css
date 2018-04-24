@@ -1,0 +1,95 @@
+
+a{
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.clear{
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.sp-testimonial-section{
+    padding: 0 30px;
+}
+
+.sp-testimonial-section .testimonial-free{
+    margin: 0 15px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.testimonial-free .tf-client-name{
+    color: #343434;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.testimonial-free .tf-client-designation{
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 14px;
+    line-height: 16px;
+}
+
+.sp-testimonial-section .owl-controls .owl-buttons div{
+    position: absolute;
+    top: 50%;
+    font-size: 26px;
+    line-height: 26px;
+    margin-top: -14px;
+}
+
+.sp-testimonial-section .owl-controls .owl-buttons div:hover{
+    color: #52b3d9;
+}
+
+.sp-testimonial-section .owl-controls .owl-buttons div.owl-prev{
+    left: 0;
+}
+
+.sp-testimonial-section .owl-controls .owl-buttons div.owl-next{
+    right: 0;
+}
+
+.sp-testimonial-section .owl-controls .owl-pagination{
+    text-align: center;
+    margin-top: 24px;
+}
+
+.sp-testimonial-section .owl-controls .owl-pagination .owl-page{
+    background-color: #cccccc;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 0 4px;
+}
+
+.sp-testimonial-section .owl-controls .owl-pagination .owl-page.active{
+    background-color: #52b3d9;
+}
+
+
+
+/* Image Style */
+.tf-client-image{
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 20px;
+}
+.tf-client-image img{
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+

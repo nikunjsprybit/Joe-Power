@@ -1,0 +1,10 @@
+.subscription_price_ele {
+  width: 18% !important;
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 414px) {
+	.subscription_price_ele {
+		width: 28% !important;
+	}
+}

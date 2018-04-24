@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Testimonial Free\n"
+"POT-Creation-Date: 2017-04-22 11:54+0600\n"
+"PO-Revision-Date: 2017-04-22 11:54+0600\n"
+"Last-Translator: \n"
+"Language-Team: ShapedPlugin <support@shapedplugin.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html__;esc_html_e;esc_html_x;esc_atts__;"
+"esc_atts_e;esc_atts_x\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/functions.php:18 ../inc/functions.php:29
+msgid "Testimonials"
+msgstr ""
+
+#: ../inc/functions.php:19
+msgid "Testimonial"
+msgstr ""
+
+#: ../inc/functions.php:20 ../inc/functions.php:21
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../inc/functions.php:22
+msgid "Edit Testimonial"
+msgstr ""
+
+#: ../inc/functions.php:23
+msgid "New Testimonial"
+msgstr ""
+
+#: ../inc/functions.php:24
+msgid "View Testimonial"
+msgstr ""
+
+#: ../inc/functions.php:25
+msgid "Search Testimonials"
+msgstr ""
+
+#: ../inc/functions.php:26
+msgid "No Testimonials found"
+msgstr ""
+
+#: ../inc/functions.php:27
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: ../inc/functions.php:28
+msgid "Parent Testimonial:"
+msgstr ""
+
+#: ../inc/functions.php:69
+msgid "Type client name here"
+msgstr ""
+
+#: ../inc/options/meta-box.php:4
+msgid "Testimonial Options"
+msgstr ""
+
+#: ../inc/options/meta-box.php:21
+msgid "Designation:"
+msgstr ""
+
+#: ../inc/options/meta-box.php:22
+msgid "Type client designation here."
+msgstr ""
+
+#: ../inc/shortcodes.php:98
+msgid "No testimonials found"
+msgstr ""

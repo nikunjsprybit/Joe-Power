@@ -1,0 +1,60 @@
+.wcicon-truck-2 { color: #ccc; font-size: 35px; }
+.wcicon-plus { color: #ccc; font-size: 20px; }
+.wcicon-status-refunded { color: #ccc; font-size: 20px; }
+
+#orders_details_general_expander a, #orders_details_items_expander a { color: #2ea2cc !important; }
+
+#orders_details_items_expander table.woocommerce_order_items td.thumb .wc-order-item-thumbnail {
+	width: 38px;
+	height: 38px;
+	border: 2px solid #e8e8e8;
+	background: #f8f8f8;
+	color: #ccc;
+	position: relative;
+	font-size: 21px;
+	display: block;
+	text-align: center;
+}
+
+#orders_details_items_expander table.woocommerce_order_items td.thumb {
+	text-align: left;
+	width: 38px;
+	padding-bottom: 1.5em;
+}
+
+#orders_details_items_expander .wc-order-totals {
+	float: right;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+#orders_details_items_expander table.woocommerce_order_items table.display_meta tr th, #orders_details_items_expander table.woocommerce_order_items table.display_meta tr td, #orders_details_items_expander table.woocommerce_order_items table.meta tr th {
+    border: 0;
+    padding: 0 4px .5em 0;
+    line-height: 1.5em;
+    font-size: .92em!important;
+    color: #888;
+    vertical-align: middle;
+    background: #fdfdfd;
+}
+#orders_details_items_expander table.woocommerce_order_items table.display_meta tr th { width: 20%; }
+
+#orders_details_items_expander .wc-order-totals .total { font-weight: 800; }
+#orders_details_items_expander .wc-order-totals .total, #orders_details_items_expander .wc-order-totals .label {
+	text-align: right !important;
+	padding: 5px 10px;
+}
+#orders_details_items_expander .wc-order-totals .refunded-total { color: #a00; }
+
+@media only screen and (max-width: 414px) {
+  .no_mob {
+  	display: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .no_ipad {
+  	display: none !important;
+  }
+}

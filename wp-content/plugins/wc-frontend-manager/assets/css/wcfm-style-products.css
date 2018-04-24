@@ -1,0 +1,95 @@
+.attachment-thumbnail.size-thumbnail.wp-post-image, .woocommerce-placeholder.wp-post-image {
+	max-height: 40px;
+	max-width: 40px;
+}
+
+a#add_new_product_dashboard {
+	background: #555;
+	padding: 3px;         
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #fff;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 8px;
+	-webkit-box-shadow: 0 1px 0 #ccc;
+	box-shadow: 0 1px 0 #ccc;
+	display: table-cell;
+}
+
+a#add_new_product_dashboard span { margin-right: 2px; margin-left: 3px; }
+
+a#add_new_product_dashboard:hover { background-color: #00897b; }
+
+.dataTables_wrapper .dataTables_filter input {
+	width: 120px;
+	height: 30px;
+}
+
+.dataTables_wrapper select {
+	font-size: 13px;
+	max-width: 150px;
+	height: 27px; 
+	margin: 0px 5px 0px 5px;
+}
+
+#wcfm-products_length, #dropdown_product_type, .dropdown_product_cat { margin-top: 4px !important; }
+#wcfm-products_filter input { margin-bottom: 10px; }
+
+#wcfm-products_length select {
+	max-width: 75px;
+	width: 60px;
+}
+
+#dropdown_product_type {
+	margin-left: 10px;
+	max-width: 200px;
+}
+
+.product-status {
+	padding: 2px 4px;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 12px;
+	line-height: 10px;
+}
+
+.product-status-publish { background-color: #73a724; }
+.product-status-pending { background-color: #FF7400; }
+.product-status-draft { background-color: #4096EE; }
+
+.instock { color: #006E2E; }
+.outofstock { color: #FF7400; }
+
+del span.woocommerce-Price-amount { display: block; color: #CC0000; }
+ins span.woocommerce-Price-amount { color: #006E2E; }
+	
+
+table.dataTable.display tr td:nth-child(3), 
+table.dataTable.display tr td:nth-child(4), 
+table.dataTable.display tr td:nth-child(5), 
+table.dataTable.display tr td:nth-child(6), 
+table.dataTable.display tr td:nth-child(7),
+table.dataTable.display tr td:nth-child(8),
+table.dataTable.display tr td:nth-child(9),
+table.dataTable.display tr th:nth-child(3), 
+table.dataTable.display tr th:nth-child(4), 
+table.dataTable.display tr th:nth-child(5),
+table.dataTable.display tr th:nth-child(6), 
+table.dataTable.display tr th:nth-child(7),
+table.dataTable.display tr th:nth-child(8),
+table.dataTable.display tr th:nth-child(9) {
+	text-align: center;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+	padding: 0em 0.2em;
+}
+
+@media only screen and (max-width: 414px) {
+	
+	a#add_new_product_dashboard .text { display: none; }
+	a#add_new_product_dashboard span { margin-right: 0px; }
+}

@@ -1,0 +1,93 @@
+#wcfm_coupon_manager_draft_button, #wcfm_coupon_manager_submit_button {
+	float: right;
+	margin-top: 10px;
+	margin-left: 10px;
+	
+	background: #00897b none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: Montserrat,"Helvetica Neue",sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.046875em;
+	line-height: 1;
+	padding: 0.84375em 0.875em 0.78125em;
+	text-transform: uppercase;
+}
+
+#wcfm_coupon_manager_draft_button:hover, #wcfm_coupon_manager_submit_button:hover {
+	background: #00897b none repeat scroll 0 0;
+}
+
+p.description {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+p.wcfm_title {
+	font-size: 15px;
+	margin-bottom: 5px !important;
+	font-style: normal;
+	width: 35%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+input[type="text"].wcfm-text, select.wcfm-select, input[type="number"].wcfm-text {
+	padding: 10px 0px 15px 10px;
+	width: 60%;
+	margin-bottom: 15px;
+	font-size: 15px;
+	display: inline-block;
+ 	background-color: #fff;
+    border:1px solid #e7e9ef;
+    color:#8A8F9A;
+}
+
+textarea.wcfm-textarea {
+	width: 60%;
+	font-size: 15px;
+	margin-bottom: 15px;
+	padding: 10px 0px 15px 10px;
+	display: inline-block;
+	background-color: #fff;
+    border:1px solid #e7e9ef;
+    color:#8A8F9A;
+}
+
+input.wcfm-checkbox {
+	margin-right: 55%;
+	margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.select2-container {
+	margin-bottom: 5px;
+}
+
+input[type="number"].wcfm-text {
+	padding: 2px;
+}
+
+@media only screen and (max-width: 640px) {
+	p.wcfm_title {
+		width: 90%;
+	}
+	
+	p.wcfm_title.checkbox_title {
+		width: 50%;
+	}
+	
+	input[type="text"].wcfm-text, select.wcfm-select, input[type="number"].wcfm-text {
+		width: 100%;
+	}
+	
+	textarea.wcfm-textarea {
+		width: 100%;
+	}
+	
+	input.wcfm-checkbox {
+		margin-right: 5%;
+	}
+}

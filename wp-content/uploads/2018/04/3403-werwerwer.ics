@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WooThemes//WooCommerce Bookings 1.10.1//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:JOE POWER
+X-ORIGINAL-URL:http://joepower.demotoclients.com/joepower/
+X-WR-CALDESC:Bookings from JOE POWER
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+DTEND;VALUE=DATE:20180404
+UID:wc_bookings_3403
+DTSTAMP:20180403T191724
+LOCATION:
+DESCRIPTION:Booking description:\nwerwerwerwerwerwer
+URL;VALUE=URI:http://joepower.demotoclients.com/joepower/view-order/3404
+SUMMARY:#3403 - werwerwer
+DTSTART;VALUE=DATE:20180404
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,57 @@
+
+/* Meta Box */
+.sp-meta-box-framework {
+    margin: -6px -12px -12px -12px;
+}
+.sp-mb-element {
+    position: relative;
+    padding: 30px;
+    border-bottom: 1px solid #eee;
+}
+.sp-mb-element:hover {
+    background-color: #f9f9f9;
+}
+.sp-mb-element:last-child{
+    border-bottom: 0;
+}
+.sp-mb-element .sp-mb-title label{
+    margin: 0;
+    color: #23282d;
+    font-weight: 700;
+    font-size: 13px;
+}
+.sp-mb-element .sp-mb-title {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+.sp-mb-desc {
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #999;
+}
+.sp-mb-element p:last-child {
+    margin-bottom: 0 !important;
+}
+.sp-mb-element .sp-mb-field-set {
+    margin-left: 30%;
+}
+.sp-mb-field-text input {
+    width: 340px;
+    max-width: 100%;
+}
+.clear {
+    clear: both;
+}
+
+@media only screen and (max-width: 1200px) {
+    .sp-meta-box-framework .sp-mb-element .sp-mb-title {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .sp-meta-box-framework .sp-mb-element .sp-mb-field-set {
+        margin-left: 0;
+    }
+}

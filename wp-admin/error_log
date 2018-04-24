@@ -1,0 +1,546 @@
+[02-Jun-2017 14:33:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[02-Jun-2017 14:33:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[02-Jun-2017 14:33:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[02-Jun-2017 14:33:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[02-Jun-2017 14:33:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[02-Jun-2017 14:33:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[02-Jun-2017 14:33:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[02-Jun-2017 16:50:24 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Required "app_id" key not supplied in config and could not find fallback environment variable "FACEBOOK_APP_ID" in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php:133
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions.php(3579): Facebook\Facebook->__construct(Array)
+#1 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): wpestate_ajax_facebook_login('')
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/demotocl/public_html/joe-powers/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php on line 133
+[02-Jun-2017 16:50:24 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Required "app_id" key not supplied in config and could not find fallback environment variable "FACEBOOK_APP_ID" in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php:133
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions.php(3579): Facebook\Facebook->__construct(Array)
+#1 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): wpestate_ajax_facebook_login('')
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/demotocl/public_html/joe-powers/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php on line 133
+[02-Jun-2017 16:50:28 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Required "app_id" key not supplied in config and could not find fallback environment variable "FACEBOOK_APP_ID" in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php:133
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions.php(3579): Facebook\Facebook->__construct(Array)
+#1 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): wpestate_ajax_facebook_login('')
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/demotocl/public_html/joe-powers/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php on line 133
+[02-Jun-2017 16:50:28 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Required "app_id" key not supplied in config and could not find fallback environment variable "FACEBOOK_APP_ID" in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php:133
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions.php(3579): Facebook\Facebook->__construct(Array)
+#1 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): wpestate_ajax_facebook_login('')
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/demotocl/public_html/joe-powers/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php on line 133
+[02-Jun-2017 16:50:40 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Required "app_id" key not supplied in config and could not find fallback environment variable "FACEBOOK_APP_ID" in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php:133
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions.php(3579): Facebook\Facebook->__construct(Array)
+#1 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): wpestate_ajax_facebook_login('')
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/demotocl/public_html/joe-powers/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php on line 133
+[02-Jun-2017 16:50:40 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Required "app_id" key not supplied in config and could not find fallback environment variable "FACEBOOK_APP_ID" in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php:133
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions.php(3579): Facebook\Facebook->__construct(Array)
+#1 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): wpestate_ajax_facebook_login('')
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/demotocl/public_html/joe-powers/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php on line 133
+[02-Jun-2017 16:52:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[02-Jun-2017 16:52:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[02-Jun-2017 16:52:30 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Required "app_id" key not supplied in config and could not find fallback environment variable "FACEBOOK_APP_ID" in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php:133
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions.php(3579): Facebook\Facebook->__construct(Array)
+#1 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): wpestate_ajax_facebook_login('')
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/demotocl/public_html/joe-powers/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php on line 133
+[02-Jun-2017 16:52:30 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Required "app_id" key not supplied in config and could not find fallback environment variable "FACEBOOK_APP_ID" in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php:133
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions.php(3579): Facebook\Facebook->__construct(Array)
+#1 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): wpestate_ajax_facebook_login('')
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/demotocl/public_html/joe-powers/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php on line 133
+[02-Jun-2017 16:52:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[02-Jun-2017 16:52:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[02-Jun-2017 16:52:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[02-Jun-2017 16:53:01 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[02-Jun-2017 16:53:02 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Required "app_id" key not supplied in config and could not find fallback environment variable "FACEBOOK_APP_ID" in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php:133
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions.php(3579): Facebook\Facebook->__construct(Array)
+#1 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): wpestate_ajax_facebook_login('')
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/demotocl/public_html/joe-powers/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php on line 133
+[02-Jun-2017 16:53:17 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[02-Jun-2017 16:53:17 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Required "app_id" key not supplied in config and could not find fallback environment variable "FACEBOOK_APP_ID" in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php:133
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions.php(3579): Facebook\Facebook->__construct(Array)
+#1 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): wpestate_ajax_facebook_login('')
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/demotocl/public_html/joe-powers/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php on line 133
+[02-Jun-2017 16:56:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[02-Jun-2017 16:56:42 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Required "app_id" key not supplied in config and could not find fallback environment variable "FACEBOOK_APP_ID" in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php:133
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions.php(3580): Facebook\Facebook->__construct(Array)
+#1 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): wpestate_ajax_facebook_login('')
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/demotocl/public_html/joe-powers/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/resources/facebook_sdk5/Facebook/Facebook.php on line 133
+[02-Jun-2017 16:57:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[02-Jun-2017 17:02:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[02-Jun-2017 17:02:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[02-Jun-2017 17:02:59 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[02-Jun-2017 17:03:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[05-Jun-2017 11:02:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[05-Jun-2017 11:02:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[05-Jun-2017 11:02:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[05-Jun-2017 11:02:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[05-Jun-2017 11:02:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[05-Jun-2017 11:02:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[05-Jun-2017 11:02:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[05-Jun-2017 13:30:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[05-Jun-2017 13:30:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[05-Jun-2017 13:30:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[05-Jun-2017 13:30:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[05-Jun-2017 13:30:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[05-Jun-2017 13:30:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[05-Jun-2017 13:30:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[05-Jun-2017 13:54:08 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions.php on line 2892
+[24-Jun-2017 14:34:32 UTC] PHP Warning:  require_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[24-Jun-2017 14:34:32 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[24-Jun-2017 15:00:06 UTC] PHP Warning:  require_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[24-Jun-2017 15:00:06 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 06:27:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/admin/class-wcmp-settings-payment.php on line 157
+[26-Jun-2017 06:29:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/admin/class-wcmp-settings-payment.php on line 157
+[26-Jun-2017 06:30:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/admin/class-wcmp-settings-payment.php on line 157
+[26-Jun-2017 06:36:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/admin/class-wcmp-settings-payment.php on line 157
+[26-Jun-2017 06:47:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/admin/class-wcmp-settings-payment.php on line 157
+[26-Jun-2017 06:47:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/admin/class-wcmp-settings-payment.php on line 157
+[26-Jun-2017 06:51:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/admin/class-wcmp-settings-payment.php on line 157
+[26-Jun-2017 08:24:03 UTC] PHP Warning:  require_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 08:24:03 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 08:28:08 UTC] PHP Warning:  require_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 08:28:08 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 08:32:46 UTC] PHP Warning:  require_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 08:32:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 08:33:36 UTC] PHP Warning:  require_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 08:33:36 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 08:44:15 UTC] PHP Warning:  require_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 08:44:15 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 08:51:29 UTC] PHP Warning:  require_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 08:51:29 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 08:58:52 UTC] PHP Warning:  require_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 08:58:52 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 10:17:48 UTC] PHP Warning:  require_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 10:17:48 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 15:12:12 UTC] PHP Warning:  require_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[26-Jun-2017 15:12:12 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[27-Jun-2017 14:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_wcmp_vendor() in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/helpers/wcfm-core-functions.php:61
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-vendor-support.php(22): wcfm_is_vendor()
+#1 /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php(82): WCFM_Vendor_Support->__construct()
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): WCFM->init('')
+#3 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#4 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/demotocl/public_html/joe-powers/wp-settings.php(449): do_action('init')
+#6 /home/demotocl/public_html/joe-powers/wp-config.php(90): require_once('/home/demotocl/...')
+#7 /home/demotocl/public_html/joe-powers/wp-load.php(37): require_once('/home in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/helpers/wcfm-core-functions.php on line 61
+[27-Jun-2017 14:32:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_wcmp_vendor() in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/helpers/wcfm-core-functions.php:61
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-vendor-support.php(22): wcfm_is_vendor()
+#1 /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php(82): WCFM_Vendor_Support->__construct()
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): WCFM->init('')
+#3 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#4 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/demotocl/public_html/joe-powers/wp-settings.php(449): do_action('init')
+#6 /home/demotocl/public_html/joe-powers/wp-config.php(90): require_once('/home/demotocl/...')
+#7 /home/demotocl/public_html/joe-powers/wp-load.php(37): require_once('/home in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/helpers/wcfm-core-functions.php on line 61
+[27-Jun-2017 14:33:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_wcmp_vendor() in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/helpers/wcfm-core-functions.php:61
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-vendor-support.php(22): wcfm_is_vendor()
+#1 /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php(82): WCFM_Vendor_Support->__construct()
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): WCFM->init('')
+#3 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#4 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/demotocl/public_html/joe-powers/wp-settings.php(449): do_action('init')
+#6 /home/demotocl/public_html/joe-powers/wp-config.php(90): require_once('/home/demotocl/...')
+#7 /home/demotocl/public_html/joe-powers/wp-load.php(37): require_once('/home in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/helpers/wcfm-core-functions.php on line 61
+[27-Jun-2017 14:34:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_wcmp_vendor() in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/helpers/wcfm-core-functions.php:61
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-vendor-support.php(22): wcfm_is_vendor()
+#1 /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php(82): WCFM_Vendor_Support->__construct()
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): WCFM->init('')
+#3 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#4 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/demotocl/public_html/joe-powers/wp-settings.php(449): do_action('init')
+#6 /home/demotocl/public_html/joe-powers/wp-config.php(90): require_once('/home/demotocl/...')
+#7 /home/demotocl/public_html/joe-powers/wp-load.php(37): require_once('/home in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/helpers/wcfm-core-functions.php on line 61
+[28-Jun-2017 14:16:08 UTC] PHP Fatal error:  Cannot declare class Stripe\Stripe, because the name is already in use in /home/demotocl/public_html/joe-powers/wp-content/plugins/marketplace-stripe-gateway/lib/stripe-php/lib/Stripe.php on line 5
+[28-Jun-2017 14:16:11 UTC] PHP Fatal error:  Cannot declare class Stripe\Stripe, because the name is already in use in /home/demotocl/public_html/joe-powers/wp-content/plugins/marketplace-stripe-gateway/lib/stripe-php/lib/Stripe.php on line 5
+[28-Jun-2017 14:16:15 UTC] PHP Fatal error:  Cannot declare class Stripe\Stripe, because the name is already in use in /home/demotocl/public_html/joe-powers/wp-content/plugins/marketplace-stripe-gateway/lib/stripe-php/lib/Stripe.php on line 5
+[28-Jun-2017 14:16:15 UTC] PHP Fatal error:  Cannot declare class Stripe\Stripe, because the name is already in use in /home/demotocl/public_html/joe-powers/wp-content/plugins/marketplace-stripe-gateway/lib/stripe-php/lib/Stripe.php on line 5
+[28-Jun-2017 14:16:16 UTC] PHP Fatal error:  Cannot declare class Stripe\Stripe, because the name is already in use in /home/demotocl/public_html/joe-powers/wp-content/plugins/marketplace-stripe-gateway/lib/stripe-php/lib/Stripe.php on line 5
+[28-Jun-2017 14:16:18 UTC] PHP Fatal error:  Cannot declare class Stripe\Stripe, because the name is already in use in /home/demotocl/public_html/joe-powers/wp-content/plugins/marketplace-stripe-gateway/lib/stripe-php/lib/Stripe.php on line 5
+[28-Jun-2017 14:28:05 UTC] PHP Warning:  require_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[28-Jun-2017 14:28:05 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/controllers/wcfm-controller-wcmarketplace-orders.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-ajax.php on line 77
+[30-Jun-2017 04:57:19 UTC] PHP Warning:  include_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-stripe-api.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/woocommerce-gateway-stripe.php on line 125
+[30-Jun-2017 04:57:19 UTC] PHP Warning:  include_once(): Failed opening '/home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-stripe-api.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/woocommerce-gateway-stripe.php on line 125
+[30-Jun-2017 04:57:19 UTC] PHP Warning:  include_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-stripe-customer.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/woocommerce-gateway-stripe.php on line 126
+[30-Jun-2017 04:57:19 UTC] PHP Warning:  include_once(): Failed opening '/home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-stripe-customer.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/woocommerce-gateway-stripe.php on line 126
+[30-Jun-2017 04:57:19 UTC] PHP Warning:  include_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-stripe-apple-pay.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/woocommerce-gateway-stripe.php on line 363
+[30-Jun-2017 04:57:19 UTC] PHP Warning:  include_once(): Failed opening '/home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-stripe-apple-pay.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/woocommerce-gateway-stripe.php on line 363
+[30-Jun-2017 04:57:19 UTC] PHP Warning:  include_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-stripe-payment-request.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/woocommerce-gateway-stripe.php on line 142
+[30-Jun-2017 04:57:19 UTC] PHP Warning:  include_once(): Failed opening '/home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-stripe-payment-request.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/woocommerce-gateway-stripe.php on line 142
+[30-Jun-2017 04:57:20 UTC] PHP Warning:  include_once(/home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-stripe-api.php): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/woocommerce-gateway-stripe.php on line 175
+[30-Jun-2017 04:57:20 UTC] PHP Warning:  include_once(): Failed opening '/home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-stripe-api.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/woocommerce-gateway-stripe.php on line 175
+[30-Jun-2017 04:57:20 UTC] PHP Fatal error:  Uncaught Error: Class 'WC_Stripe_API' not found in /home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/woocommerce-gateway-stripe.php:178
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): WC_Stripe->check_environment('')
+#1 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/demotocl/public_html/joe-powers/wp-admin/admin-ajax.php(44): do_action('admin_init')
+#4 {main}
+  thrown in /home/demotocl/public_html/joe-powers/wp-content/plugins/woocommerce-gateway-stripe/woocommerce-gateway-stripe.php on line 178
+[04-Jul-2017 13:14:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[04-Jul-2017 13:14:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[04-Jul-2017 13:14:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[04-Jul-2017 13:14:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[04-Jul-2017 13:14:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[04-Jul-2017 13:14:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[04-Jul-2017 13:14:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/revslider/admin/revslider-admin.class.php on line 538
+[14-Jul-2017 11:23:23 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ')' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals-child/functions.php on line 3202
+[17-Jul-2017 12:25:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/admin/class-wcmp-settings-payment.php on line 157
+[17-Jul-2017 13:34:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/admin/class-wcmp-settings-payment.php on line 157
+[17-Jul-2017 13:40:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/admin/class-wcmp-settings-payment.php on line 157
+[17-Jul-2017 13:40:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/admin/class-wcmp-settings-payment.php on line 157
+[17-Jul-2017 14:25:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/admin/class-wcmp-settings-payment.php on line 157
+[17-Jul-2017 14:45:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_woocommerce_term_meta() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php:177
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php(40): get_wcmp_vendor_by_term(72)
+#1 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php(14): WCMp_MassPay_Cron->do_mass_payment()
+#2 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp.php(322): WCMp_MassPay_Cron->__construct()
+#3 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp.php(66): WCMp->init_masspay_cron()
+#4 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/dc_product_vendor.php(47): WCMp->__construct('/home/demotocl/...')
+#5 /home/demotocl/public_html/joe-powers/wp-s in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php on line 177
+[17-Jul-2017 14:46:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_woocommerce_term_meta() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php:177
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php(40): get_wcmp_vendor_by_term(72)
+#1 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php(14): WCMp_MassPay_Cron->do_mass_payment()
+#2 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp.php(322): WCMp_MassPay_Cron->__construct()
+#3 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp.php(66): WCMp->init_masspay_cron()
+#4 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/dc_product_vendor.php(47): WCMp->__construct('/home/demotocl/...')
+#5 /home/demotocl/public_html/joe-powers/wp-s in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php on line 177
+[17-Jul-2017 14:47:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_woocommerce_term_meta() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php:177
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php(40): get_wcmp_vendor_by_term(72)
+#1 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php(14): WCMp_MassPay_Cron->do_mass_payment()
+#2 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp.php(322): WCMp_MassPay_Cron->__construct()
+#3 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp.php(66): WCMp->init_masspay_cron()
+#4 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/dc_product_vendor.php(47): WCMp->__construct('/home/demotocl/...')
+#5 /home/demotocl/public_html/joe-powers/wp-s in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php on line 177
+[17-Jul-2017 14:48:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_woocommerce_term_meta() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php:177
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php(40): get_wcmp_vendor_by_term(72)
+#1 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php(14): WCMp_MassPay_Cron->do_mass_payment()
+#2 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp.php(322): WCMp_MassPay_Cron->__construct()
+#3 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp.php(66): WCMp->init_masspay_cron()
+#4 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/dc_product_vendor.php(47): WCMp->__construct('/home/demotocl/...')
+#5 /home/demotocl/public_html/joe-powers/wp-s in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php on line 177
+[17-Jul-2017 14:49:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_woocommerce_term_meta() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php:177
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php(40): get_wcmp_vendor_by_term(72)
+#1 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php(14): WCMp_MassPay_Cron->do_mass_payment()
+#2 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp.php(322): WCMp_MassPay_Cron->__construct()
+#3 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp.php(66): WCMp->init_masspay_cron()
+#4 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/dc_product_vendor.php(47): WCMp->__construct('/home/demotocl/...')
+#5 /home/demotocl/public_html/joe-powers/wp-s in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php on line 177
+[17-Jul-2017 14:50:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_woocommerce_term_meta() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php:177
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php(40): get_wcmp_vendor_by_term(72)
+#1 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php(14): WCMp_MassPay_Cron->do_mass_payment()
+#2 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp.php(322): WCMp_MassPay_Cron->__construct()
+#3 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp.php(66): WCMp->init_masspay_cron()
+#4 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/dc_product_vendor.php(47): WCMp->__construct('/home/demotocl/...')
+#5 /home/demotocl/public_html/joe-powers/wp-s in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php on line 177
+[17-Jul-2017 14:51:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_woocommerce_term_meta() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php:177
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php(40): get_wcmp_vendor_by_term(72)
+#1 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php(14): WCMp_MassPay_Cron->do_mass_payment()
+#2 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp.php(322): WCMp_MassPay_Cron->__construct()
+#3 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp.php(66): WCMp->init_masspay_cron()
+#4 /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/dc_product_vendor.php(47): WCMp->__construct('/home/demotocl/...')
+#5 /home/demotocl/public_html/joe-powers/wp-s in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php on line 177
+[17-Jul-2017 17:15:59 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[17-Jul-2017 17:16:00 UTC] PHP Notice:  Undefined offset: 0 in /home/demotocl/public_html/joe-powers/wp-content/plugins/Ultimate_VC_Addons/admin/admin.php on line 407
+[17-Jul-2017 17:16:02 UTC] PHP Notice:  Undefined variable: WCMp in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 250
+[17-Jul-2017 17:16:02 UTC] PHP Notice:  Trying to get property of non-object in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 250
+[17-Jul-2017 17:16:02 UTC] PHP Notice:  Undefined variable: WCMp in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 257
+[17-Jul-2017 17:16:02 UTC] PHP Notice:  Trying to get property of non-object in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 257
+[17-Jul-2017 17:16:02 UTC] PHP Notice:  Undefined variable: WCMp in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 269
+[17-Jul-2017 17:16:02 UTC] PHP Notice:  Trying to get property of non-object in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 269
+[17-Jul-2017 17:16:02 UTC] PHP Notice:  Undefined variable: WCMp in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 276
+[17-Jul-2017 17:16:02 UTC] PHP Notice:  Trying to get property of non-object in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 276
+[17-Jul-2017 17:16:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WPReset has a deprecated constructor in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-reset/wp-reset.php on line 20
+[17-Jul-2017 17:16:16 UTC] PHP Notice:  Undefined offset: 0 in /home/demotocl/public_html/joe-powers/wp-content/plugins/Ultimate_VC_Addons/admin/admin.php on line 407
+[17-Jul-2017 17:16:16 UTC] PHP Notice:  Undefined variable: WCMp in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 250
+[17-Jul-2017 17:16:16 UTC] PHP Notice:  Trying to get property of non-object in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 250
+[17-Jul-2017 17:16:16 UTC] PHP Notice:  Undefined variable: WCMp in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 257
+[17-Jul-2017 17:16:16 UTC] PHP Notice:  Trying to get property of non-object in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 257
+[17-Jul-2017 17:16:16 UTC] PHP Notice:  Undefined variable: WCMp in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 269
+[17-Jul-2017 17:16:16 UTC] PHP Notice:  Trying to get property of non-object in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 269
+[17-Jul-2017 17:16:16 UTC] PHP Notice:  Undefined variable: WCMp in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 276
+[17-Jul-2017 17:16:16 UTC] PHP Notice:  Trying to get property of non-object in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 276
+[17-Jul-2017 17:44:54 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 42
+[17-Jul-2017 17:44:58 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 42
+[17-Jul-2017 17:46:55 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 43
+[17-Jul-2017 17:48:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WCMp_MassPay_Cron::load_class() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php:36
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): WCMp_MassPay_Cron->do_mass_payment()
+#1 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php(1092): do_action_ref_array('masspay_cron_st...', Array)
+#4 /home/demotocl/public_html/joe-powers/wp-settings.php(425): include('/home/demotocl/...')
+#5 /home/demotocl/public_html/joe-powers/wp-config.php(90): require_once('/home/demotocl/...')
+#6 /home/demotocl/public_html/joe-powers/wp-load.php(37): require_once('/home/demotocl/...')
+#7 /home/demotocl/public_html/joe-powers/wp-admin/admin-ajax.php(22):  in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 36
+[17-Jul-2017 17:50:23 UTC] PHP Warning:  Creating default object from empty value in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 39
+[17-Jul-2017 17:51:54 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 44
+[17-Jul-2017 17:52:20 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 44
+[17-Jul-2017 17:52:58 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 44
+[17-Jul-2017 17:54:08 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 45
+[17-Jul-2017 18:01:34 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 40
+[17-Jul-2017 18:01:37 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 40
+[17-Jul-2017 18:02:42 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 40
+[17-Jul-2017 18:03:04 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 40
+[17-Jul-2017 18:04:14 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 40
+[17-Jul-2017 18:05:04 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 40
+[17-Jul-2017 18:06:14 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 40
+[17-Jul-2017 18:07:06 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 40
+[17-Jul-2017 18:08:15 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 40
+[17-Jul-2017 18:09:08 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 40
+[17-Jul-2017 18:10:17 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 40
+[17-Jul-2017 18:34:16 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-wcmp-masspay-cron.php on line 40
+[18-Jul-2017 06:59:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/admin/class-wcmp-settings-payment.php on line 157
+[18-Jul-2017 07:01:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/admin/class-wcmp-settings-payment.php on line 157
+[18-Jul-2017 13:17:42 UTC] PHP Parse error:  syntax error, unexpected '{', expecting ':' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 574
+[19-Jul-2017 06:21:41 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/demotocl/public_html/joe-powers/wp-content/plugins/dc-woocommerce-multi-vendor/includes/wcmp-core-functions.php on line 1535
+[19-Jul-2017 10:43:05 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ')' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 178
+[20-Jul-2017 07:25:39 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ')' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 178
+[20-Jul-2017 07:25:43 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1158
+[20-Jul-2017 07:31:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 60
+[20-Jul-2017 07:31:41 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1158
+[20-Jul-2017 07:31:54 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1158
+[20-Jul-2017 07:32:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1158
+[20-Jul-2017 07:35:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1159
+[20-Jul-2017 07:36:00 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1159
+[20-Jul-2017 07:52:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1159
+[20-Jul-2017 07:52:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1159
+[20-Jul-2017 07:52:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1159
+[20-Jul-2017 07:54:54 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1159
+[20-Jul-2017 07:54:54 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1159
+[20-Jul-2017 07:54:54 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1159
+[20-Jul-2017 08:00:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:00:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:00:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:03:01 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:03:01 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:03:01 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:03:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:03:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:03:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:05:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:05:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:05:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:06:25 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:06:25 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:06:25 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:06:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:06:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:06:32 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:12:58 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:12:58 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:12:58 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:14:30 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:14:30 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:14:30 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:14:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:14:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:14:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:15:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:15:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:15:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:16:23 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:16:23 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:34:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:34:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:39:08 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:39:08 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:42:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:42:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:42:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 08:42:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 09:11:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 09:11:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 09:13:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 09:13:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 10:22:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 10:22:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 10:24:08 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 10:24:08 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 12:10:30 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 12:31:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 12:36:53 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 12:42:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 12:54:02 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 13:10:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 13:10:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 13:12:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 13:12:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 13:20:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 13:42:53 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 13:42:53 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 13:45:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 13:45:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 13:49:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 13:53:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 14:10:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 14:12:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 14:27:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[20-Jul-2017 14:31:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1164
+[21-Jul-2017 06:10:25 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1134
+[21-Jul-2017 08:27:59 UTC] PHP Parse error:  syntax error, unexpected ''Add new option ' (T_ENCAPSED_AND_WHITESPACE) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 55
+[21-Jul-2017 08:32:21 UTC] PHP Parse error:  syntax error, unexpected ''Add new option ' (T_ENCAPSED_AND_WHITESPACE) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 55
+[21-Jul-2017 08:32:22 UTC] PHP Parse error:  syntax error, unexpected ''A' (T_ENCAPSED_AND_WHITESPACE) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 1119
+[21-Jul-2017 08:33:17 UTC] PHP Parse error:  syntax error, unexpected ''Add new option ' (T_ENCAPSED_AND_WHITESPACE) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 55
+[21-Jul-2017 08:38:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 644
+[21-Jul-2017 08:41:13 UTC] PHP Parse error:  syntax error, unexpected ''Add new option ' (T_ENCAPSED_AND_WHITESPACE) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 55
+[21-Jul-2017 08:41:14 UTC] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 434
+[21-Jul-2017 08:41:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 826
+[21-Jul-2017 08:43:16 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 559
+[21-Jul-2017 08:43:18 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 559
+[21-Jul-2017 08:43:19 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 559
+[21-Jul-2017 08:43:22 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 559
+[21-Jul-2017 08:43:26 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 559
+[21-Jul-2017 08:43:33 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 559
+[21-Jul-2017 08:43:37 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 559
+[21-Jul-2017 08:43:40 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ')' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 1115
+[21-Jul-2017 08:44:39 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ')' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/property.php on line 1115
+[21-Jul-2017 08:51:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/css_js_include.php on line 70
+[21-Jul-2017 08:56:08 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ')' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 178
+[21-Jul-2017 08:57:36 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ')' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 178
+[21-Jul-2017 08:58:58 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ')' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 178
+[21-Jul-2017 08:58:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 997
+[21-Jul-2017 09:00:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wpestate_get_dashboard_link() in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php:227
+Stack trace:
+#0 /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm-non-ajax.php(140): WCFM->get_wcfm_menus()
+#1 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): WCFM_Non_Ajax->wcfm_admin_bar_menu(Object(WP_Admin_Bar))
+#2 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#3 /home/demotocl/public_html/joe-powers/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/demotocl/public_html/joe-powers/wp-includes/admin-bar.php(83): do_action_ref_array('admin_bar_menu', Array)
+#5 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(298): wp_admin_bar_render('')
+#6 /home/demotocl/public_html/joe-powers/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#7 /home/demotocl/public in /home/demotocl/public_html/joe-powers/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php on line 227
+[21-Jul-2017 12:33:34 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ')' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 997
+[21-Jul-2017 13:12:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1264
+[21-Jul-2017 13:12:59 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1264
+[21-Jul-2017 13:12:59 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1264
+[21-Jul-2017 13:13:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1264
+[21-Jul-2017 13:24:07 UTC] PHP Parse error:  syntax error, unexpected '' <span class="caret caret_sid' (T_ENCAPSED_AND_WHITESPACE) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/widgets/advanced_search.php on line 149
+[22-Jul-2017 06:04:59 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ']' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions.php on line 3260
+[22-Jul-2017 07:00:34 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions_booking.php on line 967
+[24-Jul-2017 07:31:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[24-Jul-2017 07:31:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[25-Jul-2017 09:19:51 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/pin_management.php on line 521
+[25-Jul-2017 09:19:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/pin_management.php on line 521
+[26-Jul-2017 11:28:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/pin_management.php on line 185
+[05-Aug-2017 21:04:44 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[10-Aug-2017 13:03:25 UTC] PHP Warning:  fileperms(): stat failed for /home/demotocl/public_html/joe-powers/wp-content/uploads/db-backup in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-database-backup/includes/admin/class-wpdb-admin.php on line 807
+[10-Aug-2017 13:03:37 UTC] PHP Warning:  fopen(/home/demotocl/public_html/joe-powers/wp-content/uploads/db-backup/.htaccess): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-database-backup/includes/admin/class-wpdb-admin.php on line 1652
+[10-Aug-2017 13:03:37 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-database-backup/includes/admin/class-wpdb-admin.php on line 1652
+[10-Aug-2017 13:03:39 UTC] Database dump method: mysqldump
+[10-Aug-2017 13:03:39 UTC] number_of_existing_backups
+[10-Aug-2017 13:03:39 UTC] 1
+[10-Aug-2017 13:03:39 UTC] number_of_backups_from_user
+[10-Aug-2017 13:03:39 UTC] 
+[11-Aug-2017 07:20:57 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[11-Aug-2017 07:20:57 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[11-Aug-2017 07:21:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[12-Aug-2017 06:39:01 UTC] PHP Warning:  fopen(/home/demotocl/public_html/joe-powers/wp-content/uploads/db-backup/.htaccess): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-database-backup/includes/admin/class-wpdb-admin.php on line 1652
+[12-Aug-2017 06:39:01 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-database-backup/includes/admin/class-wpdb-admin.php on line 1652
+[12-Aug-2017 06:39:03 UTC] Database dump method: mysqldump
+[12-Aug-2017 06:39:04 UTC] number_of_existing_backups
+[12-Aug-2017 06:39:04 UTC] 1
+[12-Aug-2017 06:39:04 UTC] number_of_backups_from_user
+[12-Aug-2017 06:39:04 UTC] 
+[12-Aug-2017 11:46:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/libs/ajax_functions.php on line 200
+[17-Aug-2017 05:43:06 UTC] PHP Warning:  fopen(/home/demotocl/public_html/joe-powers/wp-content/uploads/db-backup/.htaccess): failed to open stream: No such file or directory in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-database-backup/includes/admin/class-wpdb-admin.php on line 1652
+[17-Aug-2017 05:43:06 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/demotocl/public_html/joe-powers/wp-content/plugins/wp-database-backup/includes/admin/class-wpdb-admin.php on line 1652
+[17-Aug-2017 05:43:07 UTC] Database dump method: mysqldump
+[17-Aug-2017 05:43:08 UTC] number_of_existing_backups
+[17-Aug-2017 05:43:08 UTC] 2
+[17-Aug-2017 05:43:08 UTC] number_of_backups_from_user
+[17-Aug-2017 05:43:08 UTC] 
+[17-Aug-2017 13:46:30 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals-child/functions.php on line 3230
+[17-Aug-2017 13:47:15 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals-child/functions.php on line 3230
+[17-Aug-2017 13:48:31 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals-child/functions.php on line 2186
+[17-Aug-2017 13:49:16 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals-child/functions.php on line 3230
+[17-Aug-2017 13:49:49 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals-child/functions.php on line 3230
+[17-Aug-2017 13:51:17 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals-child/functions.php on line 3231
+[17-Aug-2017 13:54:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals-child/functions.php on line 1930
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253
+[23-Aug-2017 11:26:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/demotocl/public_html/joe-powers/wp-content/themes/wprentals/functions.php on line 1253

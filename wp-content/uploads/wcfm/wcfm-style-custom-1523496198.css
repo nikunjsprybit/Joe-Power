@@ -1,0 +1,36 @@
+#wcfm_menu{ 
+	background: #cccccc;
+}
+
+#wcfm_menu .wcfm_menu_items a.wcfm_menu_item, #wcfm_menu span.wcfm_sub_menu_items{ 
+	background: #f7f7f7;
+}
+
+#wcfm_menu .wcfm_menu_item span, #wcfm_menu span.wcfm_sub_menu_items a{ 
+	color: #555;
+}
+
+#wcfm_menu .wcfm_menu_items a.active{ 
+	background: #00897b;
+}
+
+#wcfm_menu .wcfm_menu_items a.active span{ 
+	color: #fff;
+}
+
+.page_collapsible, .collapse-close{ 
+	background: #cccccc;
+}
+
+.page_collapsible, .collapse-close{ 
+	color: #000000;
+}
+
+.collapse-open{ 
+	background: #000000;
+}
+
+.collapse-open{ 
+	color: #ffffff;
+}
+

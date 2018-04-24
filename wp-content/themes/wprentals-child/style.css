@@ -1,0 +1,58 @@
+/*
+Theme Name: WpRentals Child theme
+Theme URI: http://themeforest.net/user/annapx
+Description: Ultimate WordPress Theme created by WP Estate for accomodation booking. WP Rentals is clean, flexible, fully responsive and retina Ready. Its smart settings allows you to build outstanding renting websites easy and fast.
+Version: 1.00
+Author: wpestate
+Author URI: http://themeforest.net/user/annapx
+Tags: white, one-column, two-columns,left-sidebar, right-sidebar, fluid-layout , custom-menu, theme-options, translation-ready
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template:     wprentals
+Text Domain:  wpestate-child
+-------------------------------------------------------------- */
+
+.slider-title h2 a{ font-family: inherit!important; }
+
+@media (max-width: 1366px) {
+	.admin-list-wrapper{ padding-left: 45px; }
+}
+
+@media (max-width: 1199px) {
+	.home .custom_advance_search{ margin-top: 118px; }
+}
+
+@media (max-width: 900px) {
+	.slider-content-wrapper{ top: 5%; }
+	.home .custom_advance_search{ display: none; }
+	#adv-search-header-mobile{ margin-bottom: 0!important;}
+.is_dashboard_page #user_tab_menu_trigger{ left: 0; }
+	
+}
+
+@media (max-width: 640px) {
+	.carousel-control-theme-prev, .carousel-control-theme-next{ margin-top: 0; }
+}
+
+@media (max-width: 568px) {
+	.wcfm-collapse{ padding-top: 100px!important; }
+}
+
+@media (max-width: 420px) {
+	.slider-title h2 a{ font-size: 20px; }
+	.dashboard-margin #wcfm_report_details, .dashboard-margin #wcfm_coupons_listing{ width: 100%!important; overflow-x: auto!important;  }
+	.is_dashboard_page .dashboard-margin{ width: 100%!important; overflow-x: auto!important;}
+	
+}
+
+@media (max-width: 375px) {
+	.slider-title h2{ margin-top: 0; }
+	.slider-title h2 a{ font-size: 16px; }
+	.admin-list-wrapper{ margin: 0 0 0 15px; padding: 0; }
+	.search_dashborad_header{ margin-bottom: 10px; }
+	.wcfm-collapse{ padding-top: 150px!important; display: block!important; }
+	#wcfm_products_manage_form .tab-content .tab-pane{ margin-left: 0!important; }
+	.user_dashboard_title{ padding-left: 0!important; }
+	div.wcfm-content{ margin-left: 0!important; margin-right: 0!important; padding-left: 0!important;  }
+	.wcfm-collapse .wcfm-container{ width: 100%!important; }
+}
