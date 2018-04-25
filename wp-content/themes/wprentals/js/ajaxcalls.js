@@ -4,6 +4,7 @@
 /// ajax filtering on header search ; jslint checked
 ////////////////////////////////////////////////////////////////////////////////////////////
 function start_filtering_ajax_map(newpage) {
+    
     "use strict";
 	var is_fit_bounds_zoom=1;
     var map_geo_first_load=1;
@@ -11,7 +12,7 @@ function start_filtering_ajax_map(newpage) {
     var guest_no,call_function,search_location_filter_autointernal,stype,property_admin_area, action, category, city, area, country, rooms, baths, beds, min_price, price_max, ajaxurl, postid, guest_no, check_out, check_in, all_checkers,zip_code, product_type;
     action      =   jQuery('#adv_actions').attr('data-value');
     zip_code    =   jQuery('#zip_code').val();
-
+//alert(zip_code);
     if ( jQuery('#advanced_search_cat_list').hasClass('advanced_search_cat_list') ) {
         category    =   jQuery('input[name="filter_search_by_cat"]:checked').attr('id');
         product_type = jQuery('input[name="product_type"]:checked').val();
@@ -31,7 +32,8 @@ function start_filtering_ajax_map(newpage) {
     stype       =   jQuery('#stype').val();
     guest_no    =   jQuery('#guest_no_input').val();   
     search_location_filter_autointernal =   jQuery('#search_location_filter_autointernal').val();
-
+    
+    
     call_function = 'wpestate_ajax_filter_listings_search_onthemap';
     if (document.getElementById('stype')) {
         call_function = 'wpestate_ajax_filter_listings_search_onthemap_esteate_auto';
@@ -146,6 +148,7 @@ function  start_filtering_ajax_map_with_map_geo(newpage, ne_lat, ne_lng, sw_lat,
     beds        =   parseInt(jQuery('#beds_no_input').val(), 10);
     stype       =   jQuery('#stype').val();
     guest_no    =   jQuery('#guest_no_input').val();   
+    
     search_location_filter_autointernal =   jQuery('#search_location_filter_autointernal').val();
 
     call_function = 'wpestate_ajax_filter_ondemand_listings_with_geo';
@@ -1137,7 +1140,7 @@ function wpestate_login_wd() {
     security            =  jQuery('#security-login-wd').val();
     ispop               =  jQuery('#loginpop_wd').val();
     ajaxurl             =  ajaxcalls_vars.admin_url + 'admin-ajax.php';
-
+    
     jQuery('#login_message_area_wd').empty().append('<div class="login-alert">' + ajaxcalls_vars.login_loading + '</div>');
     jQuery.ajax({
         type: 'POST',
@@ -1154,7 +1157,7 @@ function wpestate_login_wd() {
         },
 
         success: function (data) {
-            jQuery('#login_message_area_wd').empty().append('<div class="login-alert">' + data.message + '<div>');
+            jQuery('#login_message_area_wd').empty().append('<div class="login-alert">assasas' + data.message + '<div>');
             if (data.loggedin === true) {
                 if (parseInt(data.ispop, 10) === 1) {
                     ajaxcalls_vars.userid = data.newuser;
@@ -1416,6 +1419,7 @@ function wpestate_register() {
             'capthca'                   :   capthca,
             'user_pass'                 :   user_pass,
             'user_pass_retype'          :   user_pass_retype,
+            'g-recaptcha-response': grecaptcha.getResponse()
         },
         success: function (data) {
          
@@ -1499,7 +1503,7 @@ function wpestate_register_sh() {
 ////////////////////////////////////////////////////////////////////////////////
 function wpestate_login() {
     "use strict";
-    var login_user, login_pwd, security, ispop, ajaxurl,propid;
+    var login_user, login_pwd, security, ispop, ajaxurl, propid;
     login_user          =  jQuery('#login_user').val();
     login_pwd           =  jQuery('#login_pwd').val();
     security            =  jQuery('#security-login').val();
@@ -1520,7 +1524,8 @@ function wpestate_login() {
             'login_pwd'         :   login_pwd,
             'ispop'             :   ispop,
             'propid'            :   propid,
-            'security-login'    :   security
+            'security-login'    :   security,
+            'g-recaptcha-response': grecaptcha.getResponse()
         },
         success: function (data) {
         

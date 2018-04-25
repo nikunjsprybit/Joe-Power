@@ -1075,6 +1075,7 @@ add_action( 'save_post', 'save_metabox_callback' );
 
 
 function get_lat_long($address) {
+    
     $array = array();
     if (empty($address)) {
         return $array;

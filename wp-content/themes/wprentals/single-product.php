@@ -30,6 +30,8 @@ $unit                       =   esc_html( get_option('wp_estate_measure_sys', ''
 $currency                   =   esc_html( get_option('wp_estate_currency_label_main', '') );
 $use_floor_plans            =   intval( get_post_meta($post->ID, 'use_floor_plans', true) );      
 
+$data = get_post_meta($propid, '_booking_product_id');
+
 
 if (function_exists('icl_translate') ){
     $where_currency             =   icl_translate('wpestate','wp_estate_where_currency_symbol', esc_html( get_option('wp_estate_where_currency_symbol', '') ) );

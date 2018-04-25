@@ -2749,6 +2749,7 @@ if( !function_exists('wpestate_ajax_filter_listings_search_onthemap') ):
         global $book_from;
         global $book_to;
         global $guest_no;
+        
         $property_unit_slider       =   esc_html ( get_option('wp_estate_prop_list_slider','') ); 
 
         $listing_type   =   get_option('wp_estate_listing_unit_type','');
@@ -2836,14 +2837,14 @@ if( !function_exists('wpestate_ajax_filter_listings_search_onthemap') ):
  
 
         $meta_query = array();
-        /*if ( isset($_POST['zip_code']) && !empty($_POST['zip_code']) ) {
+        if ( isset($_POST['zip_code']) && !empty($_POST['zip_code']) ) {
           $zip_code                     =   sanitize_text_field ( wp_kses ($_POST['zip_code'],$allowed_html) );
           $zip_code_array['key']        =   'property_zip';
           $zip_code_array['value']      =   $_POST['zip_code'];
           $zip_code_array['compare']    =   '='; 
           $meta_query[]                =   $zip_code_array;
         }
-*/
+
        $price = array();
         
 

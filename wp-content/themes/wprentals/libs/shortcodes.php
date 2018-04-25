@@ -1244,7 +1244,12 @@ function wpestate_register_form_function($attributes, $content = null) {
             </div>'; 
         }
     
-               
+            $return_string.='
+            <div class="loginrow">
+                <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+                <script src="https://www.google.com/recaptcha/api.js"></script>
+                <div class="g-recaptcha" data-sitekey="6Ldyc1UUAAAAAJIo6lRy2Mn0Zv1vAVKSpZQw1bf5"></div>
+            </div>';
     
     $separate_users_status= esc_html ( get_option('wp_estate_separate_users','') );            
     
@@ -1261,19 +1266,19 @@ function wpestate_register_form_function($attributes, $content = null) {
         <input type="checkbox" name="terms" id="user_terms_register_sh'.$type.'">
         <label id="user_terms_register_sh_label" for="user_terms_register_sh">'.esc_html__( 'I agree with ','wpestate').'<a href="'.wpestate_get_terms_links().'" target="_blank" id="user_terms_register_topbar_link">'.esc_html__( 'terms & conditions','wpestate').'</a> </label>';
         
-        if( esc_html ( get_option('wp_estate_use_captcha','') )=='yes'){
-            if($type=='_sh'){
-                $return_string.='<div id="capthca_register'.$type.'" style="margin:10px 0px;float:left;transform:scale(1.02);-webkit-transform:scale(1.02);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>';
-            }else{
-                $return_string.='<div id="capthca_register'.$type.'" style="float:left;transform:scale(1.02);-webkit-transform:scale(1.02);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>';
-            }
-        }      
+//        if( esc_html ( get_option('wp_estate_use_captcha','') )=='yes'){
+//            if($type=='_sh'){
+//                $return_string.='<div id="capthca_register'.$type.'" style="margin:10px 0px;float:left;transform:scale(1.02);-webkit-transform:scale(1.02);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>';
+//            }else{
+//                $return_string.='<div id="capthca_register'.$type.'" style="float:left;transform:scale(1.02);-webkit-transform:scale(1.02);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>';
+//            }
+//        }      
         
-        $return_string.='<button id="wp-submit-register'.$type.'"  style="margin-top:10px;" class="wpb_button  wpb_btn-info  wpb_btn-small wpestate_vc_button  vc_button">'.esc_html__( 'Want to list your equipment?','wpestate').'</button>';
+        $return_string.='<button id="wp-submit-register'.$type.'"  style="margin-top:10px;" class="wpb_button  wpb_btn-info  wpb_btn-small wpestate_vc_button  vc_button">'.esc_html__( 'Create your Account','wpestate').'</button>';
     
         
         if($enable_user_pass_status != 'yes'){
-            $return_string.='<p id="reg_passmail">'.esc_html__( '*A password will be e-mailed to you','wpestate').'</p>';
+            $return_string.='<p id="reg_passmail" class="cstm_password_mail_text">'.esc_html__( '*A password will be e-mailed to you','wpestate').'</p>';
         }
    
         $return_string.=' 

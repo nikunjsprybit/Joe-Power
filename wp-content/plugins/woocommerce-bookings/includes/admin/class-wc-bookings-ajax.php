@@ -144,6 +144,7 @@ class WC_Bookings_Ajax {
 	 * Returns a string which is appended to the booking form.
 	 */
 	public function calculate_costs() {
+            
 		$posted = array();
 
 		parse_str( $_POST['form'], $posted );

@@ -10,15 +10,16 @@ $dash_shop_link = wpestate_shop_link();
 ?> 
 <?php get_header(); ?>
 <div class="row is_dashboard">   
-    <?php
+    <?php 
     if( wpestate_check_if_admin_page($post->ID) ){
+        exit("FDG");
         if ( is_user_logged_in() ) {   
             get_template_part('templates/user_menu'); 
         }  
     }
     ?> 
     
-    <div class=" dashboard-margin">
+    <div class="dashboard-margin">
         
         <?php while (have_posts()) : the_post(); ?>
         
@@ -29,7 +30,7 @@ $dash_shop_link = wpestate_shop_link();
             </div>
         
             <div class="single-content"><?php the_content();?></div><!-- single content-->
-           <?php endwhile; // end of the loop. ?>
+        <?php endwhile; // end of the loop. ?>
           
     </div>
 </div> 

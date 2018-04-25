@@ -89,7 +89,7 @@ $link = site_url().'/vendor/'.$user_login;
 <div class="agentpic-wrapper">
     <div class="owner_listing_image " style="background-image: url('<?php echo $user_custom_picture;?>');"></div>
     <h3><?php print $name;?></h3>
-    <a class="owner_read_more " href="<?php echo $link?>"><?php esc_html_e('See Owner Profile','wpestate');?></a>
+    <a class="owner_read_more " href="<?php echo $link?>"><?php esc_html_e('View Store','wpestate');?></a>
 </div>
 <div class="agentpic-wrapper">
     <?php if($content!=''){      print $content;   } ?>

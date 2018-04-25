@@ -343,7 +343,8 @@ function wpestate_scripts() {
     
          
 
-    $login_redirect =   wpestate_get_dashboard_profile_link();
+//    $login_redirect =   wpestate_get_dasboard_add_listing();
+    $login_redirect = home_url('my-profile');
     $show_adv_search_map_close          =   esc_html ( get_option('wp_estate_show_adv_search_map_close','') ); 
     $max_file_size  = 100 * 1000 * 1000;
     $current_user = wp_get_current_user();

@@ -33,7 +33,7 @@ jQuery(document).ready(function ($) {
     
 	if(jQuery('#calendar').length>0){	
 		jQuery('#calendar').fullCalendar({
-			// put your options and callbacks here
+                    	// put your options and callbacks here
 		});
 	}
     if( $('#listing_description').outerHeight() > 169 ){

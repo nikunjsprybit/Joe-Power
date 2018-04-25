@@ -137,7 +137,7 @@ else{ $allow = ''; }
 
 <div id="user_tab_menu_trigger"><i class="fa fa-user"></i> <?php esc_html_e('User Menu','wpestate'); ?></div>
 
-<div class="user_tab_menu col-md-3" id="user_tab_menu_container">
+<div class="user_tab_menu col-md-3" id="user_tab_menu_container ">
     
     <div class="wcmp_top_logo_div"> 
         <div class="profile-image-wrapper">
@@ -154,7 +154,8 @@ else{ $allow = ''; }
                 <?php echo get_user_meta(get_current_user_id(), '_vendor_page_title', true) ? get_user_meta(get_current_user_id(), '_vendor_page_title', true) : __('Shop Name', $WCMp->text_domain); ?>
             </h3>
             <ul class="shop_url">
-                <li class="shop"><a target="_blank" href="<?php echo apply_filters('wcmp_vendor_shop_permalink', $vendor->permalink); ?>"><?php _e('Shop', $WCMp->text_domain); ?></a> </li>
+               <?php $vendor = get_wcmp_vendor(get_current_user_id());?>
+                <li class="shop"><a target="_blank" href="<?php echo apply_filters('wcmp_vendor_shop_permalink', $vendor->permalink); ?>"><?php _e('Shop', $WCMp->text_domain); ?> </a> </li>
                 <?php if (apply_filters('wcmp_show_vendor_announcements', true)) : ?>
                     <li class="announcements"><a target="_self" href="<?php echo wcmp_get_vendor_dashboard_endpoint_url(get_wcmp_vendor_settings('wcmp_vendor_announcements_endpoint', 'vendor', 'general', 'vendor-announcements')); ?>"><?php _e('Announcements', $WCMp->text_domain); ?></a></li>
                 <?php endif; ?>
@@ -248,11 +249,17 @@ else{ $allow = ''; }
                 <a href="<?php print $dash_allinone;?>" class="<?php print $activeallinone; ?>"><i class="fa fa-calendar"></i> <?php esc_html_e('Calendar','wpestate');?></a>
             <?php } ?>  
 
-            <a href="javascript:void(0);" target="_self" data-menu_item="store-settings" class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--store-settings hasmenu">
+                <?php  if(in_array( 'administrator', (array) $current_user->roles)){
+                    $rurl = $home_url.'/wcmp/shop-front/';
+                }else{
+                    $rurl = $home_url.'/dashboard/shop-front/';
+                } ?>
+            <a href="<?php echo $rurl; ?>" target="_self" data-menu_item="store-settings" class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--store-settings hasmenu">
                 <i class=" fa fa-gear"></i>
                 <span class="writtings">Store Settings</span>
             </a>
-            <ul class="submenu" data-parent="store-settings" style="display:none; list-style-type: none;">
+            <?php /*  ?>
+                <ul class="submenu" data-parent="store-settings" style="display:none; list-style-type: none;">
                 <li class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--shop-front">
                     <a href="<?php echo $home_url; ?>/wcmp/shop-front/" target="_self">- Shop Front</a>
                 </li>
@@ -263,10 +270,11 @@ else{ $allow = ''; }
                      <a href="<?php //echo $home_url; ?>/wcmp/vendor-shipping/" target="_self">- Shipping</a>
                 </li> -->
             </ul>
-
+<?php */ ?>
+                <?php /*  ?>
             <a href="javascript:void(0);" target="_self" data-menu_item="vendor-report" class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--vendor-report hasmenu <?php print $activefav; ?>">
                 <i class=" fa fa-pie-chart"></i>
-                <span class="writtings">Stats / Reports</span>
+                <span class="writtings">Stats / Reports </span>
             </a>
             <ul class="submenu" data-parent="vendor-report" <?php echo $style; ?>>
                 <li class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--vendor-report">
@@ -276,6 +284,7 @@ else{ $allow = ''; }
                     <a href="<?php echo $home_url; ?>/reports" target="_self">- by Date</a>
                 </li>
             </ul>
+                <?php */  ?>
          
             
             <?php /*if( $dash_favorite!=$home_url ){ ?>

@@ -231,11 +231,12 @@ else{ $allow = ''; }
         <?php } ?>  
 
         <?php if( $allow == 'allow'){ ?>
-            <a href="javascript:void(0);" target="_self" data-menu_item="store-settings" class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--store-settings hasmenu">
+            <a href="<?php echo $home_url; ?>/dashboard/shop-front/" target="_self" data-menu_item="store-settings" class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--store-settings hasmenu">
                 <i class=" fa fa-gear"></i>
                 <span class="writtings">Store Settings</span>
             </a> 
 
+            <?php /* ?>
             <ul class="submenu" data-parent="store-settings" style="display:none; list-style-type: none;">
                 <li class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--shop-front">
                     <a href="<?php echo $home_url; ?>/wcmp/shop-front/" target="_self">- Shop Front</a>
@@ -247,8 +248,9 @@ else{ $allow = ''; }
                     <a href="<?php //echo $home_url; ?>/wcmp/vendor-shipping/" target="_self">- Shipping</a>
                 </li> -->
             </ul>
+            <?php */ ?>
 
-            <a href="javascript:void(0);" target="_self" data-menu_item="vendor-report" class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--vendor-report hasmenu">
+<?php /*  ?>            <a href="javascript:void(0);" target="_self" data-menu_item="vendor-report" class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--vendor-report hasmenu">
                 <i class=" fa fa-pie-chart"></i>
                 <span class="writtings">Stats / Reports</span>
             </a>
@@ -263,7 +265,7 @@ else{ $allow = ''; }
                     <a href="<?php echo $home_url; ?>/reports/?status=stock-report" target="_self">- Out of stock</a>
                 </li>
             </ul>
-         
+<?php */  ?>         
             
      
             <?php /*if( $dash_favorite!=$home_url ){ ?>

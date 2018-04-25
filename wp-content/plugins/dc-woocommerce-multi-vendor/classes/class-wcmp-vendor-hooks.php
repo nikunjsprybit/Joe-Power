@@ -100,17 +100,17 @@ class WCMp_Vendor_Hooks {
             ),
             'store-settings' => array(
                 'label' => __('Store Settings', $WCMp->text_domain)
-                , 'url' => '#'
+                , 'url' => wcmp_get_vendor_dashboard_endpoint_url(get_wcmp_vendor_settings('wcmp_store_settings_endpoint', 'vendor', 'general', 'shop-front'))
                 , 'capability' => apply_filters('wcmp_vendor_dashboard_menu_store_settings_capability', true)
                 , 'position' => 10
                 , 'submenu' => array(
-                    'shop-front' => array(
-                        'label' => __('Shop Front', $WCMp->text_domain)
-                        , 'url' => wcmp_get_vendor_dashboard_endpoint_url(get_wcmp_vendor_settings('wcmp_store_settings_endpoint', 'vendor', 'general', 'shop-front'))
-                        , 'capability' => apply_filters('wcmp_vendor_dashboard_menu_shop_front_capability', true)
-                        , 'position' => 10
-                        , 'link_target' => '_self'
-                    ),
+//                    'shop-front' => array(
+//                        'label' => __('Shop Front', $WCMp->text_domain)
+//                        , 'url' => wcmp_get_vendor_dashboard_endpoint_url(get_wcmp_vendor_settings('wcmp_store_settings_endpoint', 'vendor', 'general', 'shop-front'))
+//                        , 'capability' => apply_filters('wcmp_vendor_dashboard_menu_shop_front_capability', true)
+//                        , 'position' => 10
+//                        , 'link_target' => '_self'
+//                    ),
                     'vendor-policies' => array(
                         'label' => __('Policies', $WCMp->text_domain)
                         , 'url' => wcmp_get_vendor_dashboard_endpoint_url(get_wcmp_vendor_settings('wcmp_vendor_policies_endpoint', 'vendor', 'general', 'vendor-policies'))
@@ -118,13 +118,13 @@ class WCMp_Vendor_Hooks {
                         , 'position' => 20
                         , 'link_target' => '_self'
                     ),
-                    'vendor-billing' => array(
-                        'label' => __('Billing', $WCMp->text_domain)
-                        , 'url' => wcmp_get_vendor_dashboard_endpoint_url(get_wcmp_vendor_settings('wcmp_vendor_billing_endpoint', 'vendor', 'general', 'vendor-billing'))
-                        , 'capability' => apply_filters('wcmp_vendor_dashboard_menu_vendor_billing_capability', true)
-                        , 'position' => 30
-                        , 'link_target' => '_self'
-                    ),
+//                    'vendor-billing' => array(
+//                        'label' => __('Billing', $WCMp->text_domain)
+//                        , 'url' => wcmp_get_vendor_dashboard_endpoint_url(get_wcmp_vendor_settings('wcmp_vendor_billing_endpoint', 'vendor', 'general', 'vendor-billing'))
+//                        , 'capability' => apply_filters('wcmp_vendor_dashboard_menu_vendor_billing_capability', true)
+//                        , 'position' => 30
+//                        , 'link_target' => '_self'
+//                    ),
                     'vendor-shipping' => array(
                         'label' => __('Shipping', $WCMp->text_domain)
                         , 'url' => wcmp_get_vendor_dashboard_endpoint_url(get_wcmp_vendor_settings('wcmp_vendor_shipping_endpoint', 'vendor', 'general', 'vendor-shipping'))
@@ -169,8 +169,8 @@ class WCMp_Vendor_Hooks {
                 , 'link_target' => '_self'
                 , 'nav_icon' => 'fa fa-bullhorn'
             ),*/
-            'vendor-report' => array(
-                'label' => __('Stats / Reports', $WCMp->text_domain)
+           /* 'vendor-report' => array(
+                'label' => __('Stats / Reports ', $WCMp->text_domain)
                 , 'url' => '#'
                 , 'capability' => apply_filters('wcmp_vendor_dashboard_menu_vendor_report_capability', true)
                 , 'position' => 40
@@ -185,7 +185,7 @@ class WCMp_Vendor_Hooks {
                 )
                 , 'link_target' => '_self'
                 , 'nav_icon' => 'fa fa-pie-chart'
-            ),
+            ),*/
             'vendor-bookings' => array(
                 'label' => __('My Bookings', $WCMp->text_domain)
                 , 'url' => wpestate_my_booking_link()

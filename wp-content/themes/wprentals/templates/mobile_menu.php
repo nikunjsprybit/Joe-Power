@@ -189,21 +189,15 @@ else{ $allow = ''; }
 				<?php } ?>  
 
 				<?php if( $allow == 'allow'){ ?>
-					<li><a href="javascript:void(0);" target="_self" data-menu_item="store-settings" class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--store-settings hasmenu">
+					<li><a href="<?php echo $home_url; ?>/dashboard/shop-front/" target="_self" data-menu_item="store-settings" class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--store-settings hasmenu">
 						<i class=" fa fa-gear"></i>
 						<span class="writtings">Store Settings</span>
-					</a><ul class="submenu" data-parent="store-settings" style="display:none; list-style-type: none;">
-						<li class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--shop-front">
-							<a href="<?php echo $home_url; ?>/dashboard/shop-front/" target="_self">- Shop Front</a>
-						</li>
-						<li class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--vendor-billing">
-							<a href="<?php echo $home_url; ?>/dashboard/vendor-billing/" target="_self">- Billing</a>
-						</li>
-					</ul></li>
+					</a></li>
 
+                                        <?php /* ?>
 					<li><a href="javascript:void(0);" target="_self" data-menu_item="vendor-report" class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--vendor-report hasmenu">
 						<i class=" fa fa-pie-chart"></i>
-						<span class="writtings">Stats / Reports</span>
+						<span class="writtings">Stats / Reports </span>
 					</a><ul class="submenu" data-parent="vendor-report" style="display:none; list-style-type: none;">
 						<li class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--vendor-report">
 							<a href="<?php echo $home_url; ?>/dashboard/vendor-report/" target="_self">- Overview</a>
@@ -214,7 +208,7 @@ else{ $allow = ''; }
 						<li class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--wcfm-reports-out-of-stock">
 							<a href="<?php echo $home_url; ?>/reports/?status=stock-report" target="_self">- Out of stock</a>
 						</li>
-					</ul></li>
+					</ul></li><?php  */ ?>
 					<?php if( $dash_searches!=$home_url ){ ?>
 						<li><a href="<?php print $dash_searches;?>" class="<?php print $activesearch; ?>"><i class="fa fa-search"></i> <?php esc_html_e('Saved Searches','wpestate');?></a></li>
 					<?php } ?>

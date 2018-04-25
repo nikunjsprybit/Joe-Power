@@ -17508,3 +17508,18 @@ element.style {
 .galeries .image_container .featured{position:absolute; top:0px; left: 18px;}
 .box__input .box__file{display:none;}
 #image_upload{position: absolute; top: 50%; left: 45%;display:none;}
+
+/*  custom css of 23/04/18  START */
+
+.cstm_member_text {
+    font-size : 15px !important;
+    width : 200px !important;
+}
+.cstm_password_mail_text {
+    font-size : 15px !important;
+}
+.cstm_frgtpass_acccreate_btn a{
+    font-size : 15px !important;
+}
+
+/*  custom css of 23/04/18  END */
