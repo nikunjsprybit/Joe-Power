@@ -1245,10 +1245,9 @@ function wpestate_register_form_function($attributes, $content = null) {
         }
     
             $return_string.='
-            <div class="loginrow">
-                <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-                <script src="https://www.google.com/recaptcha/api.js"></script>
-                <div class="g-recaptcha" data-sitekey="6Ldyc1UUAAAAAJIo6lRy2Mn0Zv1vAVKSpZQw1bf5"></div>
+            <div class="loginrow">                
+                 <script src="https://www.google.com/recaptcha/api.js"></script>
+                 <div class="g-recaptcha" data-sitekey="6Ldyc1UUAAAAAJIo6lRy2Mn0Zv1vAVKSpZQw1bf5"></div>
             </div>';
     
     $separate_users_status= esc_html ( get_option('wp_estate_separate_users','') );            

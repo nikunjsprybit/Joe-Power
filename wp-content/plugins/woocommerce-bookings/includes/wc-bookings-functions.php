@@ -476,6 +476,7 @@ function wc_bookings_get_min_timestamp_for_day( $date, $offset, $unit ) {
  * @return array|int|boolean|WP_Error False if no places/blocks are available or the dates are invalid.
  */
 function wc_bookings_get_total_available_bookings_for_range( $bookable_product, $start_date, $end_date, $resource_id = null, $qty = 1 ) {
+    
 	// alter the end date to limit it to go up to one slot if the setting is enabled
 	if ( $bookable_product->get_check_start_block_only() ) {
 		$end_date = strtotime( '+ ' . $bookable_product->get_duration() . ' ' . $bookable_product->get_duration_unit(), $start_date );

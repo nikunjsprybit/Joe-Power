@@ -98,6 +98,15 @@ class WCMp_Vendor_Hooks {
                 , 'link_target' => '_self'
                 , 'nav_icon' => 'fa fa-calendar'
             ),
+            'favorites' => array(
+                'label' => __('Favorites', $WCMp->text_domain)
+                , 'url' => home_url('favorites')
+                , 'capability' => apply_filters('wcmp_vendor_dashboard_menu_dashboard_capability', true)
+                , 'position' => 4
+                , 'submenu' => array()
+                , 'link_target' => '_self'
+                , 'nav_icon' => 'fa fa-calendar'
+            ),
             'store-settings' => array(
                 'label' => __('Store Settings', $WCMp->text_domain)
                 , 'url' => wcmp_get_vendor_dashboard_endpoint_url(get_wcmp_vendor_settings('wcmp_store_settings_endpoint', 'vendor', 'general', 'shop-front'))

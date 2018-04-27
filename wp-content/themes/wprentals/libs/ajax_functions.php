@@ -1585,10 +1585,15 @@ if (!function_exists('wpestate_ajax_register_form')):
         $user_email = trim(wp_kses($_POST['user_email_register'], $allowed_html));
         $user_name = trim(wp_kses($_POST['user_login_register'], $allowed_html));
         $user_captcha = $_POST['g-recaptcha-response'];
-
+//print_r($_POST); exit;
         if (preg_match("/^[0-9A-Za-z_]+$/", $user_name) == 0) {
             echo json_encode(array('register' => false, 'message' => esc_html__('Invalid username (do not use special characters or spaces)!', 'wpestate')));
             die();
+        }
+        
+        if (!$user_captcha) {
+            echo json_encode(array('register' => false, 'message' => esc_html__('Please Verify Captcha', 'wpestate')));
+            exit();
         }
 
 
@@ -1602,10 +1607,6 @@ if (!function_exists('wpestate_ajax_register_form')):
             exit();
         }
         
-        if ($user_captcha = '') {
-            echo json_encode(array('register' => false, 'message' => esc_html__('Please Verify Captcha', 'wpestate')));
-            exit();
-        }
 
         $domain = substr(strrchr($user_email, "@"), 1);
         if (!checkdnsrr($domain)) {
@@ -1835,7 +1836,7 @@ if (!function_exists('wpestate_ajax_loginx_form')):
             exit();
         }
         if ($capcha == '') {
-            echo json_encode(array('loggedin' => false, 'message' => esc_html__('Plz Verify Capcha!', 'wpestate')));
+            echo json_encode(array('loggedin' => false, 'message' => esc_html__('Please Verify Capcha!', 'wpestate')));
             exit();
         }
         wp_clear_auth_cookie();
@@ -2325,7 +2326,7 @@ if (!function_exists('wpestate_ajax_show_login_form')):
                                 </div>
 
                                  <div class="loginrow">
-                                    <script src="https://www.google.com/recaptcha/api.js"></script>
+                                   
                                    
                                    <div class="g-recaptcha" data-sitekey="6Ldyc1UUAAAAAJIo6lRy2Mn0Zv1vAVKSpZQw1bf5"></div>
                                 </div>

@@ -113,7 +113,7 @@ if (isset($_POST['wpestate_prop_title'])) {
                     if ($new_mess == 1) {
                         print '<h4 class="no_favorites">' . esc_html__('No results!', 'wpestate') . '</h4>';
                     } else {
-                        print '<h4 class="no_list_yet">' . esc_html__('You don\'t have any properties yet! <a href="' . wpestate_get_dasboard_add_listing() . '">Place a Listing</a>', 'wpestate') . '</h4>';
+                        print '<h4 class="no_list_yet">' . esc_html__('You don\'t have any favorites yet! ', 'wpestate') . '</h4>';
                     }
                 }
                 ?>      
@@ -124,7 +124,9 @@ if (isset($_POST['wpestate_prop_title'])) {
                         <div id="wcfm_products_listing_expander" class="wcfm-content">
 
                             <?php
-                            //$query = new WP_Query(array('post_type' => 'product', 'post__in' => array($comma_seperate_postid)));
+                            if(count($post_data) >0){
+                            //$query = new WP_Q
+                            //uery(array('post_type' => 'product', 'post__in' => array($comma_seperate_postid)));
                             foreach ($post_data as $postid) {
                                 $img = wp_get_attachment_url(get_post_thumbnail_id($postid));
                                 $data = get_post($postid);
@@ -162,7 +164,8 @@ if (isset($_POST['wpestate_prop_title'])) {
                                 </div>
 
 
-                            <?php } ?>
+                            <?php } 
+}?>
 
                         </div>
                         <div class="wcfm-clearfix"></div>

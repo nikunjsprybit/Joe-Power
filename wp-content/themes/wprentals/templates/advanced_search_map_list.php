@@ -79,10 +79,10 @@ if (is_page('advanced-search')) {
                         if ($product_child_categories) {
                             ?>
                             <ul>
-                                <?php foreach ($product_child_categories as $child_value) { ?>
+                                <?php foreach ($product_child_categories as $child_value) {   ?>
                                     <li class="custom_ajax_call">
                                         <input type="radio" name="filter_search_by_cat" id="<?php echo $child_value->slug; ?>" value="<?php echo $child_value->slug; ?>" <?php echo ($current_category == $child_value->term_id) ? 'checked' : '' ?> /> 
-                                        <label for='<?php echo $child_value->slug; ?>'><?php echo $child_value->name; ?></label>
+                                        <label for='<?php echo $child_value->slug; ?>'><a href="<?php echo get_term_link($child_value->term_id); ?>"><?php echo $child_value->name; ?></a></label>
                                     </li>
                                 <?php } ?>
                             </ul>

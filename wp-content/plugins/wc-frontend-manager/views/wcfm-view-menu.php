@@ -254,6 +254,10 @@ else{ $allow = ''; }
                 }else{
                     $rurl = $home_url.'/dashboard/shop-front/';
                 } ?>
+            <a href="<?php echo home_url('favorites'); ?>" target="_self" data-menu_item="store-settings" class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--store-settings hasmenu">
+                <i class=" fa fa-gear"></i>
+                <span class="writtings">Favorites</span>
+            </a>
             <a href="<?php echo $rurl; ?>" target="_self" data-menu_item="store-settings" class="wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--store-settings hasmenu">
                 <i class=" fa fa-gear"></i>
                 <span class="writtings">Store Settings</span>
